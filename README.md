@@ -3,26 +3,20 @@ Adobe commerce module for user responsible for product of catalog
 
 # Magento2 Module Product Responsible User
 
-Modul pro hlavní funkcionalitu Responsible User.
+This module is intended to be used as main module for main functionality of Responsible User feature.
 
-## Použití repozitáře:
+## Usage of repository:
 
-Jako Magento modul s vendorem `Aiti`.
+Magento module with vendor `Aiti`.
 
 ### Composer
 
-Název package pro composer je `aiti/module-responsible-user`
+Composer package name should be `aiti/module-responsible-user`
 
 ### `app/code`
 
-Do `app/code` v Magentu klonovat ve složce `app/code/Aiti`, tedy výsledná
-cesta k modulu bude: `app/code/Aiti/ProductResponsibleUser`
+Into `app/code` please clone `app/code/Aiti`, the final path will be: `app/code/Aiti/ProductResponsibleUser`
 
-## Práce na úkolu
-
-Pro samostatnou práci na úkolu si založte branch se svým jménem (`feature/jmeno`). Po dokončení
-vytvořte pull request do masteru a pingněte někoho na slacku.
-Následně vám řešení zkontrolujeme a dáme feedback.
 
 ### Docs
 - https://devdocs.magento.com/guides/v2.4
