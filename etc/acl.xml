@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+		<resources>
+			<resource id="Magento_Backend::admin">
+				<resource id="Aiti_ProductResponsibleUser::User" title="User" sortOrder="1000">
+					<resource id="Aiti_ProductResponsibleUser::User_save" title="Save User" sortOrder="10"/>
+					<resource id="Aiti_ProductResponsibleUser::User_delete" title="Delete User" sortOrder="20"/>
+					<resource id="Aiti_ProductResponsibleUser::User_update" title="Update User" sortOrder="30"/>
+					<resource id="Aiti_ProductResponsibleUser::User_view" title="View User" sortOrder="40"/>
+				</resource>
+			</resource>
+		</resources>
+	</acl>
+</config>

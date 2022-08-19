@@ -1,0 +1,14 @@
+{
+    "aiti_productresponsibleuser_user": {
+        "column": {
+            "user_id": true,
+            "first_name": true,
+            "last_name": true,
+            "department_id": true,
+            "created_at": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
