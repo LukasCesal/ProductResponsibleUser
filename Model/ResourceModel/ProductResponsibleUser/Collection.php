@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Aiti\ProductResponsibleUserApi\Model\ResourceModel\User;
+namespace Aiti\ProductResponsibleUser\Model\ResourceModel\ProductResponsibleUser;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-	<preference for="Aiti\ProductResponsibleUserApi\Api\ProductResponsibleUserInterface" type="Aiti\ProductResponsibleUser\Model\ProductResponsibleUser"/>
-	<preference for="Aiti\ProductResponsibleUserApi\Api\Data\ProductResponsibleUserRepositoryInterface" type="Aiti\ProductResponsibleUser\Model\ProductResponsibleUserRepository"/>
+    <preference for="Aiti\ProductResponsibleUserApi\Api\ProductResponsibleUserRepositoryInterface" type="Aiti\ProductResponsibleUser\Model\ProductResponsibleUserRepository"/>
+    <preference for="Aiti\ProductResponsibleUserApi\Api\Data\ProductResponsibleUserInterface" type="Aiti\ProductResponsibleUser\Model\ProductResponsibleUser"/>
 </config>

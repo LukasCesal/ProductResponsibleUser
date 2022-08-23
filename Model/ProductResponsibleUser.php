@@ -22,7 +22,7 @@ class ProductResponsibleUser extends AbstractModel implements ProductResponsible
      */
     public function getUserId(): ?int
     {
-        return $this->getData(self::USER_ID);//todo check int type
+        return $this->getData(self::USER_ID) === null ? null : (int) $this->getData(self::USER_ID);
     }
 
     /**
