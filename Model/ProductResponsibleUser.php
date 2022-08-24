@@ -70,17 +70,17 @@ class ProductResponsibleUser extends AbstractModel implements ProductResponsible
     /**
      * @inheritDoc
      */
-    public function getDepartmentId(): ?int
+    public function getDepartment(): ?string
     {
-        return (int)$this->getData('department_id');
+        return $this->getData('department');
     }
 
     /**
      * @inheritDoc
      */
-    public function setDepartmentId(?int $departmentId): ProductResponsibleUser
+    public function setDepartment(?string $department): ProductResponsibleUser
     {
-        $this->setData('department_id', $departmentId);
+        $this->setData('department', $department);
         return $this;
     }
 

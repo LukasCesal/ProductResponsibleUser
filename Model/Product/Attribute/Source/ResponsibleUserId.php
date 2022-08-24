@@ -90,7 +90,7 @@ class ResponsibleUserId extends AbstractSource implements OptionSourceInterface
             foreach($collection->getItems() as $item){
                 $option = [];
                 $option['value'] = $item->getData('user_id');
-                $option['label'] = $item->getData('first_name') . ' ' . $item->getData('last_name') . ' (' . $item->getData('department_id') . ')';
+                $option['label'] = $item->getData('first_name') . ' ' . $item->getData('last_name') . ' (' . $item->getData('department') . ')';
                 $options[] = $option;
             }
             $this->_configCacheType->save($this->_jsonSerializer->serialize($options), $cacheKey);

@@ -4,7 +4,7 @@
             "user_id": true,
             "first_name": true,
             "last_name": true,
-            "department_id": true,
+            "department": true,
             "created_at": true
         },
         "constraint": {
