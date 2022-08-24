@@ -86,6 +86,7 @@ class ResponsibleUserId extends AbstractSource implements OptionSourceInterface
 
             $collection = $this->_productResponsibleUserRepositoryInterface->getList($this->_searchCriteria->create());
             $options = [];
+            $options[] = ['value'=>null,'label'=>__('Unassigned')];
             foreach($collection->getItems() as $item){
                 $option = [];
                 $option['value'] = $item->getData('user_id');
